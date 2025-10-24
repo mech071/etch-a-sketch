@@ -46,7 +46,9 @@ body {
     margin: 40px;
     display: flex;
     flex-wrap: wrap;
-    width: 480px;
-    height: 480px;
+    width: 90vw;
+    height: 90vw;
+    max-width: 480px;
+    max-height: 480px;
     border: 1px solid black;
 }
