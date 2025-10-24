@@ -21,10 +21,6 @@ function grid(n) {
         element.addEventListener("touchstart", function () {
             color(element);
         });
-        element.addEventListener("touchmove", function (e) {
-            e.preventDefault();
-            color(element);
-        });
         container.append(element);
     }
 }
